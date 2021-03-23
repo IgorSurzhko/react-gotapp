@@ -18,3 +18,16 @@ a:active {
     text-decoration: none;
     color: inherit;
 }
+
+button {
+    display: block;
+    padding: 5px;
+    margin: -20px auto 20px;
+    background-color: rgba(47, 0, 122, 0.794);
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    border: none;
+}
