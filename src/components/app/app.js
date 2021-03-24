@@ -7,6 +7,8 @@ import {CharacterPage, BooksPage, HousesPage, BooksItem} from '../pages';
 import gotService from '../../services/gotService';
 import {BrowserRouter, Route} from 'react-router-dom';
 
+import './app.css';
+
 export default class App extends Component {
     gotService = new gotService();
 
@@ -16,7 +18,7 @@ export default class App extends Component {
         selectedHouse: 20
     };
 
-    componentDidCatch() {
+    componentDidCatch() { 
         console.log('error');
         this.setState({
             error: true

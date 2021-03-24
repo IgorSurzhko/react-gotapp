@@ -1,23 +1,24 @@
 import React from 'react';
 import './header.css'
+import {Link} from 'react-router-dom'
 
 const Header = () => {
     return (
         <div className="div">
             <h3 className="h3">
-                <a href="https://github.com/IgorSurzhko/react-gotapp.git">
+                <Link to='/'>
                 Game of Thrones DB
-                </a>
+                </Link>
             </h3>
             <ul className="ul">
                 <li>
-                    <a href="https://github.com/IgorSurzhko/react-gotapp.git">Characters</a>
+                    <Link to='/characters'>Characters</Link>
                 </li>
                 <li>
-                    <a href="https://github.com/IgorSurzhko/react-gotapp.git">Houses</a>
+                    <Link to='/houses'>Houses</Link>
                 </li>
                 <li>
-                    <a href="https://github.com/IgorSurzhko/react-gotapp.git">Books</a>   
+                    <Link to='/books'>Books</Link>   
                 </li>
             </ul>
         </div>
