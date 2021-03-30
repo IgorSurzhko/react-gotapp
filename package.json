@@ -1,8 +1,5 @@
 {
   "name": "gotapp",
-  "jest": {
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
-  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -31,9 +28,10 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-    "devDependencies": {
+  "devDependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
-    "enzyme-to-json": "^3.6.1"
+    "enzyme-to-json": "^3.6.1",
+    "jest-extended": "^0.11.5"
   }
 }
