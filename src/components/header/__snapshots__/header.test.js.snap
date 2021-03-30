@@ -1,3 +1,42 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Testing <Header/> Header have rendered correctly 1`] = `ShallowWrapper {}`;
+exports[`Testing <Header/> Header have rendered correctly 1`] = `
+<div
+  className="div"
+>
+  <h3
+    className="h3"
+  >
+    <Link
+      to="/"
+    >
+      Game of Thrones DB
+    </Link>
+  </h3>
+  <ul
+    className="ul"
+  >
+    <li>
+      <Link
+        to="/characters/"
+      >
+        Characters
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/houses/"
+      >
+        Houses
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/books/"
+      >
+        Books
+      </Link>
+    </li>
+  </ul>
+</div>
+`;
